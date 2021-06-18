@@ -20,7 +20,7 @@ const EmailForm: React.FC<{ id }> = ({ id }) => {
       setEmailTo("");
     } catch (error) {
       console.log(error);
-      setMessage(error.data.response.message);
+      setMessage(error.response.data.message);
     }
   };
 

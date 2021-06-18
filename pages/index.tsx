@@ -40,6 +40,7 @@ export default function Home() {
   const resetComponent = () => {
     setFile(null);
     setDownloadLink(null);
+    setUploadState('Upload')
   };
 
   return (
